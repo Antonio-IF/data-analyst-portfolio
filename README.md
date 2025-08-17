@@ -47,7 +47,7 @@ lessons.
 Financial Engineer focused on **business analytics** and **credit modeling**.
 *Growth mindset*: everything can be learned.
 ## Contact
-- LinkedIn: [<your-link>](https://www.linkedin.com/in/juan-antonio-mugica/)
+- LinkedIn: [Juan Antonio Mugica](https://www.linkedin.com/in/juan-antonio-mugica/)
 - Email: toonymlp@gmail.com
 ## License
 MIT.
