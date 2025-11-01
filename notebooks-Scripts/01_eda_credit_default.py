@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import warnings
 import openpyxl
+import os; print(os.getcwd())
 
 # Filter out warnings
 warnings.filterwarnings('ignore')
