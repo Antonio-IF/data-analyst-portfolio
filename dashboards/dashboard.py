@@ -1,6 +1,5 @@
 # pip install dash dash-core-components dash-html-components plotly
-import dash
-from dash import html, dcc
+from dash import Dash, html, dcc, Input, Output, dash_table
 import plotly.express as px
 import pandas as pd
 import seaborn as sns
@@ -8,28 +7,19 @@ import matplotlib.pyplot as plt
 import numpy as np
 import warnings
 
-# Filter out warnings
-warnings.filterwarnings('ignore')
 
-# Load dataset. 
-df = pd.read_excel("data/raw/default_credit.xls", header=1)
+# Incorporate data
+df = pd.read_excel('https://raw.githubusercontent.com/plotly/datasets/master/gapminder2007.csv')
 
-fig = px.bar()    
+# Initialize the app
+app = Dash()
 
-app = dash.Dash(__name__)
+# App layout
+app.layout = [
+    html.Div(children='My First App with Data'),
+    dash_table.DataTable(data=df.to_dict('records'), page_size=10)
+]
 
-app.layout = html.Div(children=[
-        html.H1(children='My First Dash Dashboard'),
-
-        html.Div(children='''
-            Dash: A web application framework for Python.
-        '''),
-
-        dcc.Graph(
-            id='example-graph',
-            figure=fig
-        )
-    ])
-
+# Run the app
 if __name__ == '__main__':
-        app.run(debug=True)
+    app.run(debug=True)
