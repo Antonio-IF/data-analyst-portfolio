@@ -2,8 +2,7 @@
 
 Welcome to my **Data Analyst** portfolio. Here you will find projects using
 **Python, SQL, and Power BI** focused on **business analytics** (KPIs,
-pricing, retention, time series) and **credit** (scoring, PD/LGD/EAD). I am
-seeking **Data Analyst / Credit Analytics** roles.
+pricing, retention, time series) and **credit** (scoring, PD/LGD/EAD).
 
 ## Tech Stack
 Python (pandas, numpy, scikit-learn, statsmodels), SQL (PostgreSQL/DuckDB),
@@ -27,24 +26,15 @@ pip install -r requirements.txt
 pre-commit install # optional but recommended
 ```
 ## Projects
-1. **Data Cleaning + Sales KPIs** — ETL with Python, KPI definitions
-(revenue, margin, ticket), and a BI dashboard.
-2. **SQL Analytics** — Cohorts, retention, RFM, and segmentation using SQL
-only.
-3. **Power BI Visualization** — Sales & profitability with filters and
-storytelling.
-4. **Credit Scoring (Logistic Regression)** — Pipeline, metrics (ROC-AUC,
-KS), interpretation (SHAP).
-5. **Forecasting** — Time series (ARIMA/Prophet/Statsmodels) for demand or
-revenue.
-6. **A/B Testing** — Experimental design, p-values, power, multiple-testing
-correction.
-7. **Churn** — Early-warning signals and actions.
-8. **End-to-End** — Mini pipeline: ingestion → features → model → report.
+1. **Default of Credit Card Clients** — [Dataset](https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients)
+<img width="1000" height="1000" alt="image" src="https://github.com/user-attachments/assets/645a1d8b-7010-4da6-860b-7d84f06a72aa" />
+2. 
+3. 
 > Each project includes: the problem, data, steps, results, and business
 lessons.
+
 ## About me
-Financial Engineer focused on **business analytics** and **credit modeling**.
+Financial Engineer focused on **Data-Analyst** and **Data-Scientist**.
 *Growth mindset*: everything can be learned.
 ## Contact
 - LinkedIn: [Juan Antonio Mugica](https://www.linkedin.com/in/juan-antonio-mugica/)
