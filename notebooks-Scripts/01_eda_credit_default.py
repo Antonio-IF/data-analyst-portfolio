@@ -11,6 +11,7 @@ warnings.filterwarnings('ignore')
 
 # Load dataset. 
 df = pd.read_excel("../data/raw/default_credit.xls", header=1)
+
 # show dataframe 
 # friendly reminder: default payment next month = Y and ID is the customer ID, and 
 # other columns use for X1, X2, ..., X3, Xn. 
